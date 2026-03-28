@@ -1,4 +1,4 @@
--- --For each product category, calculate monthly revenue (price + freight_value) and rank categories within each month by ----revenue. Then for the top 5 categories by overall revenue, show their month-over-month revenue growth percentage and a ---3-month rolling average of revenue. Only include months where the category had at least 10 transactions.
+-- -- For each product category, calculate monthly revenue (price + freight_value) and rank categories within each month by ----revenue. Then for the top 5 categories by overall revenue, show their month-over-month revenue growth percentage and a ---3-month rolling average of revenue. Only include months where the category had at least 10 transactions.
 
 -- from pyspark.sql import functions as F
 -- from pyspark.sql.window import Window
